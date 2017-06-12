@@ -1,7 +1,7 @@
 var baasic;
-var bckey = '7ilgDcx7j4MLxQTH0FTfn2';
-var bdkey = 'fsxLX3BYs4AuhATQ01FWI0';
-var blkey = 'L6CMFWS2jKQS9ATS00TeR1';
+var bckey = <key1>;
+var bdkey = <key2>;
+var blkey = <key3>;
 var baasicKeyValues = [];
 
 
@@ -51,8 +51,8 @@ function executeMessageFromBaasic(msg){
 
 function loginToBaasic(){
 	baasic.membershipClient.login.login({
-	    username: 'info@baasic.com',
-	    password: 'bmw-sc-1122'})
+	    username: <username>,
+	    password: <password>})
 			.then(function (data) {
 				console.log('connected to baasic.');
 				//checkBaasicCommands();
