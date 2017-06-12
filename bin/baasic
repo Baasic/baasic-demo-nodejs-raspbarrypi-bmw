@@ -12,9 +12,7 @@ function checkBaasicCommands(){
 				//console.log('request check: ',request.data);
 				var data=request.data;
 				if(data.id===bckey && data.vehicle ==='BMW528'){
-					//TODO: Set default state and send
-
-					//executeMessageFromBaasic(data);
+                    executeMessageFromBaasic(data);
 				}
 			},
 			function(err){
